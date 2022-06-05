@@ -8,7 +8,7 @@ text-transform: capitalize;
 transition: all .2s linear;
 }
 body{
-    background:#111;
+    background:green;
     overflow-x: hidden;
     padding-left: 35rem;
 }
@@ -26,6 +26,15 @@ h1{
 }  
 h1 span{
     color: aqua;
+}
+.btn{
+    padding:.7rem 3rem;
+    background:#333;
+    color:#fff;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 5rem;
 }
 header{
     position: fixed;
@@ -82,3 +91,22 @@ header .navbar ul li a{
     color:#eee;
     padding: 1rem 0;
 }
+.about .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:1rem 0;
+}  
+.about .box .infor{
+    flex:1 1 48rem;
+    padding:2rem 1rem;
+    padding-left: 6rem;
+
+}
+ .about .box .infor h3{
+    flex:1 1 48rem;
+    padding:2rem 1rem;
+    padding-left: 6rem;
+}
+ 
