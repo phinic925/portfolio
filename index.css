@@ -14,7 +14,7 @@ body{
 }
 section{
     min-height: 100vh;
-    padding:1rem;
+    padding:50px;
 }
 h1{
     text-align: center;
@@ -96,7 +96,7 @@ header .navbar ul li a{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding:1rem 0;
+    margin-top: 80px;
 }  
 .about .box1 .infor{
     flex:1 1 48rem;
@@ -108,6 +108,7 @@ header .navbar ul li a{
     flex:1 1 48rem;
     padding:2rem 1rem;
     padding-left: 6rem;
+    color: red;
 }
 .about .box1.row{
     flex:1 1 48rem;
@@ -132,7 +133,7 @@ header .navbar ul li a{
     font-size: 2rem;
     color:#fff;
 }
-.education .box-container{
+.education .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -141,7 +142,7 @@ header .navbar ul li a{
     padding-left: 3rem;
 }
 
-.education .box-container .box{
+.education .container .cont{
     width:27rem;
     margin:4rem 1rem;
     padding-left: 4rem;
@@ -149,7 +150,7 @@ header .navbar ul li a{
     position: relative;
 }
 
-.education .box-container .box span{
+.education .container .cont span{
     font-size: 1.3rem;
     background:#222;
     color:#fff;
@@ -157,19 +158,19 @@ header .navbar ul li a{
     padding:.5rem 2.5rem;
 }
 
-.education .box-container .box h3{
+.education .container .cont h2{
     font-size: 2rem;
     color:#fff;
     padding-top: 1.5rem;
 }
 
-.education .box-container .box p{
+.education .container .cont p{
     font-size: 1.4rem;
     color:#eee;
     padding: 1rem 0;
 }
 
-.education .box-container .box i{
+.education .container .cont i{
     position: absolute;
     top:-1.5rem; left:-2.5rem;
     height:5rem;
@@ -181,5 +182,40 @@ header .navbar ul li a{
     color:#fff;
     background:var(--yellow);
 }
+.contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact .row .content{
+    flex:1 1 30rem;
+    padding:4rem;
+    padding-bottom: 0;
+}
+
+
+.contact .row .content .title{
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.contact .row .content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color:#eee;
+    padding:1rem 0;
+    font-weight: normal;
+}
+
+.contact .row .content .info h3 i{
+    padding-right: 1rem;
+    color:var(--yellow);
+}
+
 
  
