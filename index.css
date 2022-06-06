@@ -26,7 +26,7 @@ h1{
     color:#fff;
 }  
 h1 span{
-    color: aqua;
+    color: #222;
 }
 .btn{
     padding:.7rem 3rem;
@@ -82,11 +82,13 @@ header .navbar ul li a{
 }
 .home h2{
     font-size: 1.5rem;
-    color:goldenrod;
+    color: #fff;
 }
 .home h1{
     font-size:3rem;
     color:#fff;
+    position: relative;
+    left: -100px;
 }
 .home h1 span{
     color:var(--yellow);
@@ -135,9 +137,10 @@ header .navbar ul li a{
 }
 
 .about .box1 .row .cont span{
-    font-size: 4rem;
+    font-size: 2rem;
     color:var(--yellow);
     margin-top: 80px;
+    color: #fff;
 }
 
 .about .box1 .row .cont h3{
