@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 *{
 font-family: 'Nunito', sans-serif;
 margin:0; padding:0;
@@ -13,7 +14,7 @@ body{
     padding-left: 35rem;
 }
 section{
-    min-height: 100vh;
+    min-height: 20vh;
     padding:50px;
 }
 h1{
@@ -36,6 +37,11 @@ h1 span{
     font-size: 2rem;
     border-radius: 5rem;
 }
+.btn i{
+    padding:0 .5rem;
+    font-size: 1.8rem;
+}
+
 header{
     position: fixed;
     top:0; left:0;
@@ -75,11 +81,11 @@ header .navbar ul li a{
     padding:0 15rem;
 }
 .home h2{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color:goldenrod;
 }
 .home h1{
-    font-size:5rem;
+    font-size:3rem;
     color:#fff;
 }
 .home h1 span{
@@ -97,18 +103,21 @@ header .navbar ul li a{
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 80px;
+  
 }  
 .about .box1 .infor{
     flex:1 1 48rem;
     padding:2rem 1rem;
     padding-left: 6rem;
+    margin-left: 50px;
+    color: #eee;
 
 }
  .about .box1 .infor h3{
     flex:1 1 48rem;
     padding:2rem 1rem;
     padding-left: 6rem;
-    color: red;
+    
 }
 .about .box1.row{
     flex:1 1 48rem;
@@ -122,32 +131,35 @@ header .navbar ul li a{
     text-align: center;
     padding: 2rem;
     margin:2rem;
+    
 }
 
 .about .box1 .row .cont span{
     font-size: 4rem;
     color:var(--yellow);
+    margin-top: 80px;
 }
 
 .about .box1 .row .cont h3{
     font-size: 2rem;
     color:#fff;
+    padding-top: 80px;
 }
 .education .container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    padding:1rem 0;
-    padding-left: 3rem;
-}
+    padding-top: 50px;
+}     
+    
+
 
 .education .container .cont{
-    width:27rem;
-    margin:4rem 1rem;
-    padding-left: 4rem;
-    border-left: .2rem solid #fff;
-    position: relative;
+    flex:1 1 48rem;
+    padding:2rem 1rem;
+    padding-left: 6rem;
+
 }
 
 .education .container .cont span{
@@ -162,13 +174,14 @@ header .navbar ul li a{
     font-size: 2rem;
     color:#fff;
     padding-top: 1.5rem;
+   
 }
 
 .education .container .cont p{
     font-size: 1.4rem;
     color:#eee;
     padding: 1rem 0;
-}
+}  
 
 .education .container .cont i{
     position: absolute;
